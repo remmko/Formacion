@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<requirement-specification>
+<req_spec title="Test requirement 1"  doc_id="RF1"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[0]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+<req_spec title="Notes testing"  doc_id="RDL:!"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Lorem ispum&nbsp;</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+	<requirement>
+		<docid><![CDATA[RDL:1]]></docid>
+		<title><![CDATA[Testing option]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Lorem ispum</p>]]></description>
+		<status><![CDATA[I]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+</req_spec>
+<req_spec title="Comida Rapida"  doc_id="REQ 001"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+<req_spec title="Requisitos Funcionales"  doc_id="RF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+<req_spec title="Subsistema de Repartidores"  doc_id="RF2"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+	<requirement>
+		<docid><![CDATA[RF 2.1]]></docid>
+		<title><![CDATA[Recoger pedido]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>El sistema le mostrara el n&uacute;mero del pedido, y una vez recogido marcara como recogido.</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+<req_spec title="Historias de Usuario"  doc_id="RF2 HU"  >
+	<revision><![CDATA[2]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+		</custom_fields>
+<req_spec title="Localización"  doc_id="HU 2.1"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[1]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como usuario quiero localizar mi pedidio</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+<req_spec title="Metodo de pago"  doc_id="HU 2.2"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como&nbsp;cliente quiero poder seleccionar metodo de pago</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+<req_spec title="Personalización"  doc_id="HU 2.3"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[3]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como cliente quiero personalizar mi pizza</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+<req_spec title="Ruta optima"  doc_id="HU 2.4"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[4]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[<p>Como repartidor quiero saber la ruta optima para repartir las pizzas si hay mas de un pedidio</p>]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[Alta]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[A]]></value>
+			</custom_field>
+		</custom_fields>
+</req_spec>
+</req_spec>
+</req_spec>
+</req_spec>
+<req_spec title="Requisitos No Funcionales"  doc_id="RNF"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[2]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+	<requirement>
+		<docid><![CDATA[RNF 2.1]]></docid>
+		<title><![CDATA[Tiempo Limite]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>1</node_order>
+		<description><![CDATA[<p>Todo pedido debe estar entregado antes de 30 minutos</p>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+</req_spec>
+<req_spec title="Requisitos de datos"  doc_id="RD"  >
+	<revision><![CDATA[1]]></revision>
+	<type><![CDATA[1]]></type>
+	<node_order><![CDATA[3]]></node_order>
+	<total_req><![CDATA[0]]></total_req>
+	<scope><![CDATA[]]></scope>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Especificacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+	<requirement>
+		<docid><![CDATA[RD 2.1]]></docid>
+		<title><![CDATA[Detalle de Envio]]></title>
+		<version>1</version>
+		<revision>1</revision>
+		<node_order>2</node_order>
+		<description><![CDATA[<ul>
+	<li>N Pedido</li>
+	<li>Direcci&oacute;n
+	<ul>
+		<li>Calle</li>
+		<li>Num</li>
+	</ul>
+	</li>
+	<li>Persona de contacto</li>
+</ul>]]></description>
+		<status><![CDATA[D]]></status>
+		<type><![CDATA[3]]></type>
+		<expected_coverage><![CDATA[1]]></expected_coverage>
+		<custom_fields>
+			<custom_field>
+			<name><![CDATA[Prioridad Requisito]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Riesgo Requisito]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+			<custom_field>
+			<name><![CDATA[Criterios de aceptacion]]></name>
+			<value><![CDATA[]]></value>
+			</custom_field>
+		</custom_fields>
+
+	</requirement>
+</req_spec>
+</req_spec>
+</requirement-specification>
