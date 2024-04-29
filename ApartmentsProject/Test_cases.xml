@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="" name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="159" name="Reserva" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="160" name="Consulta" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="161" name="Obtener preferencias y consultar estancias disponibles">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Ir a opcion de alquilar y escoger preferencias</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Muestra la lista de preferencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Rellenar preferencias con estos valores<br />
+<br />
+&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:100%">
+	<tbody>
+		<tr>
+			<td>Preferencia</td>
+			<td>Entrada</td>
+		</tr>
+		<tr>
+			<td>Tipo</td>
+			<td>Cualquiera</td>
+		</tr>
+		<tr>
+			<td>Comodidades</td>
+			<td>Aire acondicionado</td>
+		</tr>
+		<tr>
+			<td>Ciudad</td>
+			<td>Barcelona</td>
+		</tr>
+		<tr>
+			<td>Zona</td>
+			<td>Les corts</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Que se muestren las preferencias seleccionadas.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Dar a buscar estancia</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Mostrar habitaciones con estas preferencias:</p>
+
+<ul>
+	<li>Cualquiera</li>
+	<li>Aire acondicionado</li>
+	<li>Barcelona</li>
+	<li>Les corts</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Subsistema de empleados desplazados]]></req_spec_title>
+			<doc_id><![CDATA[RF 1.1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Consultar estancias]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Requisitos de datos]]></req_spec_title>
+			<doc_id><![CDATA[RD 1.4]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Preferencias]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Subsistema de empleados desplazados]]></req_spec_title>
+			<doc_id><![CDATA[RF 1.0]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Elegir preferencias]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+
+<testcase internalid="190" name="Obtener preferencias y consultar estancias disponibles 2">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Ir a opcion de alquilar y escoger preferencias</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Muestra la lista de preferencias.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Rellenar preferencias con estos valores<br />
+<br />
+&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td>Preferencia</td>
+			<td>Entrada</td>
+		</tr>
+		<tr>
+			<td>Tipo</td>
+			<td>Apartamento</td>
+		</tr>
+		<tr>
+			<td>Comodidades</td>
+			<td>Balcon</td>
+		</tr>
+		<tr>
+			<td>Ciudad</td>
+			<td>Madrid</td>
+		</tr>
+		<tr>
+			<td>Zona</td>
+			<td>Chueca</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>Que se muestren las preferecnias seleccionadas</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Dar a buscar estancia</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Mostrar habitaciones con estas preferencias:</p>
+
+<ul>
+	<li>Apartamento</li>
+	<li>Balcon</li>
+	<li>Madrid</li>
+	<li>Chueca</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="205" name="Solicitar reserva">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Hoy es 26/04/2024</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp; &nbsp;<br />
+Darle a solicitar reserva</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Te muestra la fechas y horas para escoger</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Rellenar las fechas y horas<br />
+&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td>Fecha entrada</td>
+			<td>21/05/2024</td>
+		</tr>
+		<tr>
+			<td>Fecha salida</td>
+			<td>21/06/2024</td>
+		</tr>
+		<tr>
+			<td>Hora entrada</td>
+			<td>14:00</td>
+		</tr>
+		<tr>
+			<td>Hora salida</td>
+			<td>12:00</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>OK</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="208" name="Notificación de confirmación de reserva">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Ir a la notificiaci&oacute;n recibida despu&eacute;s de hacer la reserva.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Recibir un correo electr&oacute;nico con los siguientes datos:<br />
+<br />
+&nbsp;</p>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>Fecha de entrada</td>
+			<td>20/05/2024</td>
+		</tr>
+		<tr>
+			<td>Fecha de salida</td>
+			<td>20/06/2024</td>
+		</tr>
+		<tr>
+			<td>Ubicaci&oacute;n</td>
+			<td>Barcelona</td>
+		</tr>
+		<tr>
+			<td>Tipo</td>
+			<td>Apartamento</td>
+		</tr>
+		<tr>
+			<td>Informaci&oacute;n relevante</td>
+			<td>Cualquier duda llamar a +34 555 999 999</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="221" name="KO Solicitar reserva">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[<p>Hoy es 26/04/2024</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Darle a solicitar reserva</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Te muestra la fechas y horas para escoger</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Rellenar las fechas y horas<br />
+&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td>Fecha entrada</td>
+			<td>21/05/2021</td>
+		</tr>
+		<tr>
+			<td>Fecha salida</td>
+			<td>21/06/2021</td>
+		</tr>
+		<tr>
+			<td>Hora entrada</td>
+			<td>14:00</td>
+		</tr>
+		<tr>
+			<td>Hora salida</td>
+			<td>12:00</td>
+		</tr>
+	</tbody>
+</table>
+]]></actions>
+	<expectedresults><![CDATA[<p>No te deja escoger esas fechas.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+
+<testcase internalid="226" name="Notificación de cancelacion de reserva">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Ir al apartado de mis reservas.</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Mostrar una lista de todas mis reservas</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Cancelar la reserva con los siguientes datos</p>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>Numero de reserva</td>
+			<td>432654363246</td>
+		</tr>
+		<tr>
+			<td>Ciudad</td>
+			<td>Barcelona</td>
+		</tr>
+		<tr>
+			<td>Zona</td>
+			<td>Les corts</td>
+		</tr>
+		<tr>
+			<td>Fecha de entrada</td>
+			<td>25/06/2024</td>
+		</tr>
+		<tr>
+			<td>Fecha de salida</td>
+			<td>25/08/2024</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Recibir un correo con la confirmaci&oacute;n de cancelacion de reserva con los siguientes datos:</p>
+
+<table border="0" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>Detalles de cancelaci&oacute;n</td>
+			<td>Cancelada con &eacute;xito</td>
+		</tr>
+		<tr>
+			<td>Fecha y hora de la cancelaci&oacute;n</td>
+			<td>18/05/2024 18:47</td>
+		</tr>
+		<tr>
+			<td>Numero de reserva</td>
+			<td>432654363246</td>
+		</tr>
+		<tr>
+			<td>Politica de cancelacion</td>
+			<td>El coste de la cancelaci&oacute;n es de 0&euro;.</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+</testcase>
+</testsuite></testsuite><testsuite id="207" name="Mantenimiento" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="213" name="Hoja de trabajo" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="224" name="Solicitud" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="214" name="Solicitud">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Adminstraci&oacute;n entra nueva tarea con datos:</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
+	<tbody>
+		<tr>
+			<td>Ubicacion</td>
+			<td>Plaza NSQ, 2</td>
+		</tr>
+		<tr>
+			<td>Naturaleza de problema</td>
+			<td>Limpiar</td>
+		</tr>
+		<tr>
+			<td>Herramientas</td>
+			<td>Trapeador</td>
+		</tr>
+		<tr>
+			<td>Tiempo estimado</td>
+			<td>2h</td>
+		</tr>
+		<tr>
+			<td>Fecha limite</td>
+			<td>10/05/2024</td>
+		</tr>
+		<tr>
+			<td>Inst</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Solicitud entra en sistema</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Personal de mantenimiento recibe la hora de trabjo</p>
+]]></actions>
+	<expectedresults><![CDATA[<table>
+	<tbody>
+		<tr>
+			<td>
+			<p>&nbsp;</p>
+
+			<table border="1" cellpadding="1" cellspacing="1">
+				<tbody>
+					<tr>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">Ubicacion</a></td>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">Plaza NSQ, 2</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">Naturaleza de problema</a></td>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">Limpiar</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">Herramientas</a></td>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">Trapeador</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">Tiempo estimado</a></td>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">2h</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">Fecha limite</a></td>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">10/05/2024</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">Inst</a></td>
+						<td><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">&nbsp;</a></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<p><a href="https://testlink.remmko.online/lib/testcases/tcEdit.php?doAction=editStep&amp;testcase_id=214&amp;tcversion_id=215&amp;goback_url=https%3A%2F%2Ftestlink.remmko.online%2Flib%2Ftestcases%2FarchiveData.php%3Ftcase_id%3D214%26show_mode%3Dshow&amp;step_id=216">&nbsp;</a></p>
+			</td>
+			<td>
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+<platforms/>
+
+	<requirements>
+		<requirement>
+			<req_spec_title><![CDATA[Subsistema de mantenimiento]]></req_spec_title>
+			<doc_id><![CDATA[RF 2.1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Recibir hoja de trabajo]]></title>
+		</requirement>
+		<requirement>
+			<req_spec_title><![CDATA[Requisitos de datos]]></req_spec_title>
+			<doc_id><![CDATA[RD 1.1]]></doc_id>
+			<version><![CDATA[1]]></version>
+			<title><![CDATA[Hoja de trabajo]]></title>
+		</requirement>
+	</requirements>
+</testcase>
+</testsuite></testsuite></testsuite></testsuite>
